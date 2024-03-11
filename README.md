@@ -8,7 +8,3 @@
 作业2描述
 
 [作业2链接](https://mingkaily.github.io/)
-
-
-. sd
-. ss
