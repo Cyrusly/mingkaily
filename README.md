@@ -17,7 +17,7 @@
 
 # 计算机科学与编程入门课程第二次作业
 ## 1. 作业1
-### 发布了全新的自研搜索引擎“鸭鸭搜索”(需要科学上网)，无论是在速度还是质量上都遥遥领先[Doge]
+### 发布了全新的自研搜索引擎“鸭鸭搜索”(需要科学上网)，无论是在速度还是质量上都遥遥领先[Doge](内有彩蛋)
 
 [作业1链接](https://cyrusly.github.io/mingkaily/ducksearch.html)
 
@@ -26,8 +26,4 @@
 
 [作业2链接](https://cyrusly.github.io/mingkaily/.html)
 
-## 3.html练习
-### 上课刚好讲了html，我就想能不能用html写一个贪吃蛇游戏，于是我用gpt编写了一个html版本的贪吃蛇
-
-[游戏链接](https://cyrusly.github.io/mingkaily/Snake_game.html)
 
