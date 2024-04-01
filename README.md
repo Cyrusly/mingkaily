@@ -29,5 +29,5 @@
 ## 3.html练习
 ### 上课刚好讲了html，我就想能不能用html写一个贪吃蛇游戏，于是我用gpt编写了一个html版本的贪吃蛇
 
-[游戏链接](https://cyrusly.github.io/mingkaily/snake_game.html)
+[游戏链接](https://cyrusly.github.io/mingkaily/Snake_game.html)
 
