@@ -1,3 +1,4 @@
+
 # 计算机科学与编程入门课程第一次作业
 ## 2200013306 李杨铭锴
 ## 1. 作业1
@@ -24,4 +25,9 @@
 ### 刚好最近在读《傲慢与偏见》，因此我对这本书进行了人物共现关系图
 
 [作业2链接](https://cyrusly.github.io/mingkaily/.html)
+
+## 3.html练习
+### 上课刚好讲了html，我就想能不能用html写一个贪吃蛇游戏，于是我用gpt编写了一个html版本的贪吃蛇
+
+[游戏链接](https://cyrusly.github.io/mingkaily/snake_game.html)
 
