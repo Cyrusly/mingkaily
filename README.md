@@ -24,6 +24,6 @@
 ## 2. 作业2
 ### 刚好最近在读《傲慢与偏见》，因此我对这本书进行了人物共现关系图
 
-[作业2链接](https://cyrusly.github.io/mingkaily/.html)
+[作业2链接](https://cyrusly.github.io/mingkaily/PaP_summary.html)
 
 
