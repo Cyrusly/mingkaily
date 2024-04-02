@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>《傲慢与偏见》人物共现关系分析</title>
+  <style>
+    body {
+      font-family: "STFangsong", sans-serif;
+      padding: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+      color: #3366ff;
+    }
+    p {
+      text-indent: 20px;
+      background-color: #f2f2f2;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    .summary {
+      background-color: #e6f7ff;
+      font-size: 18px;
+    }
+    .analysis {
+      background-color: #ffe6e6;
+      font-size: 18px;
+    }
+    .results {
+      background-color: #e6ffe6;
+      text-align: center;
+      font-size: 20px;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="photo.jpeg" alt="Photo" />
+  <h1>《傲慢与偏见》人物共现关系分析</h1>
+
+  <h2>一、小说内容概要</h2>
+  <p class="summary">《傲慢与偏见》是英国作家简·奥斯汀于1813年首次出版的小说，是她最著名的作品之一。小说讲述了伊丽莎白·班内特和弗兹威廉·达西之间的爱情故事，以及描绘了19世纪英国社交圈的生活和风俗。<br><br>
+  <p class="summary">小说以男女主角之间的误会和爱情发展为核心，展现了19世纪初英国社会的阶级观念、家族观念和婚姻观念。作为一部经典的爱情喜剧小说，《傲慢与偏见》以细腻的文字、精彩的对话和深刻的社会洞察力，吸引了无数读者。<br><br>
+  <p class="summary">小说的主题包括自我意识、偏见和社会阶层之间的差异。它以优雅而机智的方式揭示了角色的内心世界，描绘了各种亲情、友情和爱情之间错综复杂的关系。小说深入探讨了人性，并对当时英国社会的价值观和规范提出了独到的见解。</p>
+  
+  <h2>二、数据分析</h2>
+  <p class="analysis">整体的共现过程于课堂上的三国演义共现分析类似，但有一些地方我进行了修改。<br><br>
+  <p class="analysis">首先是数据集的获取，这里我从网站[Www.qinkan.net]下载到了小说的txt文件。<br><br>
+  <p class="analysis">在开始部分，我对`userdict.txt`文档进行了修改，可能由于是外文名字的原因，不进行人为修改直接进行处理会导致很多人物名字没有被识别为nr。因此我在这个文档中加入了本小说中主要的人物的姓名。<br><br>
+其次是`ignore_list`这部分，在统计时会出现很多名称不为人名，比如：`'宝贝','荣幸','周全','祝贺','和蔼','令姐','宝贵'`等名词、动词或表示称呼的词，此外还有一些人物居住环境的地名也有着很高的出现频率，比如：`'麦里屯','白利屯','蓝白屯','哈福郡','肯特郡'`等，我把出现统计频率大于20的词都剔除了。<br><br>
+  <p class="analysis">此外，应该注意到书中经常出现不同称谓所代指同一个人，如'丽萃'和‘班纳特小姐‘都是指主角伊丽莎白，‘卢卡斯’是夏绿蒂姓，经常出现带指夏绿蒂，等等。我将出现频率较高的带指同一人物的名词都进行了合并。<br><br>
+  <p class="analysis">值得注意的是，《傲慢与偏见》不同于《三国演义》，没有三国演义那样巨量的篇幅，因此最后设置`name_cnt_limit`来获取达到一定次数的人名不能过高，这里我将这个值修改为20。</p>
+
+  <h2>三、共现结果展示</h2>
+  <p class="results"><a href="./傲慢与偏见人物共现图.html">点击此处查看结果</a></p>
+</body>
+</html>
