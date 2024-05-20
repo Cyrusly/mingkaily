@@ -27,3 +27,25 @@
 [作业2链接](https://yangmingkaili.github.io/mingkaily/PaP_summary.html)
 
 
+# 计算机科学与编程入门课程大作业
+## 知乎电影回答偏好程度调查
+### 电影词云图：
+[结果1链接](https://yangmingkaili.github.io/mingkaily/default_freq_TOP25.html)
+[结果2链接](https://yangmingkaili.github.io/mingkaily/default_index_TOP25.html)
+[结果3链接](https://yangmingkaili.github.io/mingkaily/updated_index_TOP25.html)
+[结果4链接](https://yangmingkaili.github.io/mingkaily/updated_freq_TOP25.html)
+
+### 回答时间统计
+[结果1链接](https://yangmingkaili.github.io/mingkaily/回答小时频率分布.html)
+[结果2链接](https://yangmingkaili.github.io/mingkaily/回答年季度频率分布.html)
+
+### 电影出现频率统计
+[结果1链接](https://yangmingkaili.github.io/mingkaily/combined_chart.html)
+
+### 不同回答电影共现分析
+[结果1链接](https://yangmingkaili.github.io/mingkaily/知乎电影推荐共现图.html)
+
+
+
+
+
